@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-22T12:00:36.090Z",
+        "line": 42,
+        "name": "Login",
+        "description": "",
+        "id": "test-testme-app;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11768982600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The browser is opened and URL is typed",
+            "match": {
+              "location": "casestudy.the_browser_is_opened_and_URL_is_typed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 474461700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on the SignIn button",
+            "match": {
+              "location": "casestudy.i_click_on_the_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139517400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter the \"arunsivaram\" and \"arun1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arunsivaram\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"arun1234\"",
+                  "offset": 30
+                }
+              ],
+              "location": "casestudy.i_enter_the_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190849300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on Login button",
+            "match": {
+              "location": "casestudy.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69836300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Home page should be displayed",
+            "match": {
+              "location": "casestudy.home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-22T12:00:48.747Z",
+        "line": 46,
+        "name": "The one where user moves to cart without adding any item in it",
+        "description": "",
+        "id": "test-testme-app;the-one-where-user-moves-to-cart-without-adding-any-item-in-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Alex has registered into TestMe App",
+            "match": {
+              "location": "casestudy.alex_has_registered_into_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300689600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Alex search a particular product like headphones",
+            "match": {
+              "location": "casestudy.alex_search_a_particular_product_like_headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23345300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "try to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "casestudy.try_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15051300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "TestmeApp doesn\u0027t display the cart icon",
+            "match": {
+              "location": "casestudy.testmeapp_doesn_t_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "click on add to cart button",
+            "match": {
+              "location": "casestudy.click_on_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "cart icon will be visible",
+            "match": {
+              "location": "casestudy.cart_icon_will_be_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "click on the cart icon",
+            "match": {
+              "location": "casestudy.click_on_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Test TestMe App",
+    "description": "",
+    "id": "test-testme-app",
+    "keyword": "Feature",
+    "uri": "classpath:casestudy/casestudy.feature",
+    "tags": []
+  }
+]
